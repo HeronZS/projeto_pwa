@@ -175,15 +175,21 @@
         }
 
         .product-image {
-            height: 250px;
-            background: linear-gradient(45deg, #e8e8e8, #f5f5f5);
+            width: 100%;         /* ocupa toda a largura do card */
+            height: 200px;       /* altura fixa para todas as imagens */
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 4rem;
-            position: relative;
-            overflow: hidden;
+            overflow: hidden;    /* corta a parte que sobra */
+            background: #f5f5f5; /* cor de fundo caso a imagem não preencha */
+            border-radius: 8px;  /* opcional: cantos arredondados */
         }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;   /* mantém proporção e preenche o espaço */
+}
 
         /* Diferentes cores para cada autor */
         .dostoievsky { background: linear-gradient(45deg, #c0392b, #e74c3c); }
@@ -435,7 +441,9 @@
             <section class="products-section">
                 <div class="products-grid">
                     <article class="product-card">
-                        <div class="product-image dostoievsky">📖</div>
+                        <div class="product-image dostoievsky">
+                            <img src="images\crime_e_castigo.png" alt="Crime e Castigo">
+                        </div>
                         <div class="product-info">
                             <h3 class="product-title">Crime e Castigo</h3>
                             <p class="product-author">Fiódor Dostoiévsky</p>
@@ -444,7 +452,9 @@
                     </article>
 
                     <article class="product-card">
-                        <div class="product-image dostoievsky">📚</div>
+                        <div class="product-image dostoievsky">
+                            <img src="images\irmaos_karamazov.png" alt="Os Irmãos Karamázov">
+                        </div>
                         <div class="product-info">
                             <h3 class="product-title">Os Irmãos Karamázov</h3>
                             <p class="product-author">Fiódor Dostoiévsky</p>
@@ -453,7 +463,9 @@
                     </article>
 
                     <article class="product-card">
-                        <div class="product-image machado">📖</div>
+                        <div class="product-image machado">
+                            <img src="images\dom_casmurro.png" alt="Dom Casmurro">    
+                        </div>
                         <div class="product-info">
                             <h3 class="product-title">Dom Casmurro</h3>
                             <p class="product-author">Machado de Assis</p>
@@ -480,9 +492,11 @@
                     </article>
 
                     <article class="product-card">
-                        <div class="product-image tolstoi">📚</div>
+                        <div class="product-image tolstoi">
+                            <img src="images\anna_karienina.png" alt="Anna Kariênina">
+                        </div>
                         <div class="product-info">
-                            <h3 class="product-title">Anna Karenina</h3>
+                            <h3 class="product-title">Anna Kariênina</h3>
                             <p class="product-author">Liev Tolstói</p>
                             <p class="product-description">A trágica história de amor entre Anna e Vronsky na Rússia aristocrática.</p>
                         </div>
