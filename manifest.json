@@ -1,113 +1,13 @@
 {
-  "name": "Biblioteca Clássica - Grandes Escritores",
-  "short_name": "Biblioteca Clássica",
-  "description": "Explore as obras-primas de Dostoiévsky, Machado de Assis, Tolstói e Camus",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#f8f9fa",
-  "theme_color": "#2c3e50",
-  "orientation": "portrait-primary",
-  "scope": "/",
-  "lang": "pt-BR",
-  "icons": [
-    {
-      "src": "icon-72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "categories": ["books", "education", "literature"],
-  "shortcuts": [
-    {
-      "name": "Dostoiévsky",
-      "short_name": "Dostoiévsky",
-      "description": "Obras de Fiódor Dostoiévsky",
-      "url": "/?author=dostoievsky",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Machado de Assis",
-      "short_name": "Machado",
-      "description": "Obras de Machado de Assis",
-      "url": "/?author=machado",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Tolstói",
-      "short_name": "Tolstói",
-      "description": "Obras de Liev Tolstói",
-      "url": "/?author=tolstoi",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Camus",
-      "short_name": "Camus",
-      "description": "Obras de Albert Camus",
-      "url": "/?author=camus",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
-    }
-  ]
+  "name":"biblioteca", 
+  "short_name":"biblioteca",
+  "icons":[{"src":"icons/android-chrome-192x192.png",
+  "sizes":"192x192",
+  "type":"image/png"},
+  {"src":"icons/android-chrome-512x512.png",
+  "sizes":"512x512",
+  "type":"image/png"}],
+  "theme_color":"#ffffff",
+  "background_color":"#ffffff",
+  "display":"standalone"
 }
